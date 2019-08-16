@@ -47,8 +47,3 @@ function CourseMouseOut(event) {
 	let el = document.getElementsByClassName('info_box')[0]
 	el.style.visibility = 'hidden'
 }
-
-/*el = document.getElementsByClassName('course_card')
-for (var i = 0; i < el.length; i ++)
-	console.log(el[i].innerText)
-	*/
