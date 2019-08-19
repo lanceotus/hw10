@@ -20,12 +20,10 @@ main {
 header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background: linear-gradient(to right, #4444cc, #8844aa);
-    height: 80px;
-    width: 100%;
     margin: 0;
     padding: 0;
-    min-width: 950px;
 }
 .logo {
     height: 100%;
